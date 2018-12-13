@@ -21,6 +21,7 @@ public class UserController {
 	
 	@Autowired
 	public UserService userService;
+	// very nice
 	
 	@GetMapping("/")
 	public String index() {
